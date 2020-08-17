@@ -5,7 +5,9 @@ function BackGroundVector() {
     <svg
       className="h-screen w-screen fixed z-20"
       fill="none"
+      viewBox="0 0 1920 1080"
       xmlns="http://www.w3.org/2000/svg"
+      style={{ marginLeft: "-10.8rem" }}
       preserveAspectRatio="xMidYMid meet"
     >
       <g filter="url(#filter0_d)">

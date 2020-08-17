@@ -19,7 +19,10 @@ function Home() {
       <HeaderNav />
       <SideNav linkindex="1" />
       <BackGroundVector />
-      <div className="main-body mt-40 mb-12 z-20" style={mainStyle}>
+      <div
+        className="main-body mt-40 mb-12 z-20 wow animate__animated animate__fadeIn"
+        style={mainStyle}
+      >
         <ContinueWatching />
         <MovieCards title="Popular on Netflix" />
         <MovieCards title="Recommended for You" />

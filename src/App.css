@@ -9,3 +9,41 @@ body::-webkit-scrollbar {
 .action-bar svg {
   cursor: pointer;
 }
+
+.item {
+  filter: drop-shadow(0px 0px 30px #000000);
+}
+
+.item img {
+  border-radius: 2em;
+}
+
+.item span {
+  line-height: 4vh;
+}
+
+.body {
+  font-family: "Roboto" !important;
+}
+
+.overlay {
+  background: linear-gradient(to right, #121136, transparent 75%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  display: block;
+}
+
+.overlay-2 {
+  background: linear-gradient(to top, #1a194b, transparent 75%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  display: block;
+}

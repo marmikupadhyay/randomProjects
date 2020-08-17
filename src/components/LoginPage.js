@@ -18,7 +18,10 @@ function LoginPage() {
 
   return (
     <div className="h-screen w-screen wrapper" style={wrapperStyle}>
-      <div className="h-screen w-screen body " style={bodyStyle}>
+      <div
+        className="h-screen w-screen body  wow animate__animated animate__fadeIn"
+        style={bodyStyle}
+      >
         <Logo />
         <div className="flex h-1/2">
           <LeftLoginSide />

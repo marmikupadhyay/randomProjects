@@ -4,6 +4,8 @@ import "./App.css";
 import LoginPage from "./components/LoginPage";
 import Home from "./components/Home";
 import AccountDetails from "./components/AccountDetails";
+import Settings from "./components/Settings";
+import Liked from "./components/Liked";
 
 function App() {
   return (
@@ -15,8 +17,14 @@ function App() {
         <Route path="/home">
           <Home />
         </Route>
+        <Route path="/liked">
+          <Liked />
+        </Route>
         <Route path="/account">
           <AccountDetails />
+        </Route>
+        <Route path="/settings">
+          <Settings />
         </Route>
       </Router>
     </React.Fragment>

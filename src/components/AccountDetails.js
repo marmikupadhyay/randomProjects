@@ -11,7 +11,8 @@ function AccountDetails() {
 
   const mainStyle = {
     width: "93%",
-    marginLeft: "7%"
+    marginLeft: "7%",
+    minHeight: "calc(100vh - 12rem)"
   };
 
   const btnStyle = {
@@ -23,7 +24,10 @@ function AccountDetails() {
       <HeaderNav />
       <SideNav linkindex="5" />
       <BackGroundVector />
-      <div className="z-20 mt-40 mb-12 mx-auto" style={mainStyle}>
+      <div
+        className="z-20 mt-40 mb-12 mx-auto  wow animate__animated animate__fadeIn"
+        style={mainStyle}
+      >
         <div className="details w-8/12 mx-auto flex flex-col ">
           <h1 className="text-white text-5xl  font-semibold text-center  pb-2">
             Account Details

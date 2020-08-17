@@ -39,13 +39,15 @@ function IconBar(props) {
       >
         <MovieIcon /> {index === "2" ? text : ""}
       </div>
-      <div
-        className="heart p-4"
-        style={index === "3" ? activeStyle : iconStyle}
-      >
-        <HeartIcon />
-        {index === "3" ? text : ""}
-      </div>
+      <Link to="/liked">
+        <div
+          className="heart p-4"
+          style={index === "3" ? activeStyle : iconStyle}
+        >
+          <HeartIcon />
+          {index === "3" ? text : ""}
+        </div>
+      </Link>
       <div className="bell p-4" style={index === "4" ? activeStyle : iconStyle}>
         <BellIcon />
         {index === "4" ? text : ""}
@@ -59,13 +61,15 @@ function IconBar(props) {
           {index === "5" ? text : ""}
         </div>
       </Link>
-      <div
-        className="settings p-4"
-        style={index === "6" ? activeStyle : iconStyle}
-      >
-        <SettingsIcon />
-        {index === "6" ? text : ""}
-      </div>
+      <Link to="/settings">
+        <div
+          className="settings p-4"
+          style={index === "6" ? activeStyle : iconStyle}
+        >
+          <SettingsIcon />
+          {index === "6" ? text : ""}
+        </div>
+      </Link>
     </div>
   );
 }
