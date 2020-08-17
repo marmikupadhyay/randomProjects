@@ -21,7 +21,7 @@ function Seasons() {
           Season 4
         </span>
         <span className="mx-8 pt-4 pb-1 cursor-pointer hover:border-b-2">
-          Season 5 hover:border-b-2
+          Season 5
         </span>
       </div>
       <Episodes />

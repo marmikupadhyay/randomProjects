@@ -64,7 +64,7 @@ function Episode(props) {
       </div>
       <div className="w-3/5 pl-8 -mt-6 text-white">
         <span
-          className="title font-semibold text-xl"
+          className="title font-semibold text-xl cursor-pointer"
           style={{ fontFamily: "Exo", letterSpacing: "1px" }}
         >
           Episode {props.index}. {names[props.index - 1]}
@@ -86,7 +86,7 @@ function Episode(props) {
       <div className="w-1/5 logo-box flex justify-center">
         <svg
           viewBox="0 0 45 44"
-          className="h-12 w-12"
+          className="h-12 w-12 cursor-pointer"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >

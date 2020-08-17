@@ -41,7 +41,7 @@ function MovieCards(props) {
             />
             <ActionBar />
           </div>
-          <span className="pt-4 font-semibold text-lg">
+          <span className="pt-4 font-semibold text-lg cursor-pointer">
             The Vampire Diaries
           </span>
         </div>
@@ -51,7 +51,9 @@ function MovieCards(props) {
             <ActionBar />
           </div>
 
-          <span className="pt-4 font-semibold text-lg">Breaking Bad</span>
+          <span className="pt-4 font-semibold text-lg cursor-pointer">
+            Breaking Bad
+          </span>
         </div>
         <div className="cards w-2/12 flex flex-col text-center">
           <div className="" style={cardStyle}>
@@ -62,14 +64,18 @@ function MovieCards(props) {
             />
             <ActionBar />
           </div>
-          <span className="pt-4 font-semibold text-lg">Stranger Things</span>
+          <span className="pt-4 font-semibold text-lg cursor-pointer">
+            Stranger Things
+          </span>
         </div>
         <div className="cards w-2/12 flex flex-col text-center">
           <div className="" style={cardStyle}>
             <img src={Dark} style={{ opacity: "0.6" }} alt="Dark" />
             <ActionBar />
           </div>
-          <span className="pt-4 font-semibold text-lg">Dark</span>
+          <span className="pt-4 font-semibold text-lg cursor-pointer">
+            Dark
+          </span>
         </div>
         <div className="cards w-2/12 flex flex-col text-center">
           <div className="" style={cardStyle}>
@@ -80,7 +86,7 @@ function MovieCards(props) {
             />
             <ActionBar />
           </div>
-          <span className="pt-4 font-semibold text-lg">
+          <span className="pt-4 font-semibold text-lg cursor-pointer">
             The Vampire Diaries
           </span>
         </div>
