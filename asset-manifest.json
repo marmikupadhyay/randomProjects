@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/randomProjects/static/css/main.598d9f94.chunk.css",
+    "main.js": "/randomProjects/static/js/main.c7773f12.chunk.js",
+    "main.js.map": "/randomProjects/static/js/main.c7773f12.chunk.js.map",
+    "runtime-main.js": "/randomProjects/static/js/runtime-main.e1e58f9a.js",
+    "runtime-main.js.map": "/randomProjects/static/js/runtime-main.e1e58f9a.js.map",
+    "static/js/2.242a3dc9.chunk.js": "/randomProjects/static/js/2.242a3dc9.chunk.js",
+    "static/js/2.242a3dc9.chunk.js.map": "/randomProjects/static/js/2.242a3dc9.chunk.js.map",
+    "index.html": "/randomProjects/index.html",
+    "precache-manifest.4942ce272e04d0735e99cea54a485386.js": "/randomProjects/precache-manifest.4942ce272e04d0735e99cea54a485386.js",
+    "service-worker.js": "/randomProjects/service-worker.js",
+    "static/css/main.598d9f94.chunk.css.map": "/randomProjects/static/css/main.598d9f94.chunk.css.map",
+    "static/js/2.242a3dc9.chunk.js.LICENSE.txt": "/randomProjects/static/js/2.242a3dc9.chunk.js.LICENSE.txt",
+    "static/media/Adam.png": "/randomProjects/static/media/Adam.d6772a6c.png",
+    "static/media/BG.png": "/randomProjects/static/media/BG.c42d61f1.png",
+    "static/media/Hannah.png": "/randomProjects/static/media/Hannah.f6a90d38.png",
+    "static/media/JokerBack.png": "/randomProjects/static/media/JokerBack.7886d25f.png",
+    "static/media/Jonas.png": "/randomProjects/static/media/Jonas.5d8c3dc6.png",
+    "static/media/Martha.png": "/randomProjects/static/media/Martha.32232151.png",
+    "static/media/breakingbad.png": "/randomProjects/static/media/breakingbad.c518d4b7.png",
+    "static/media/dark.png": "/randomProjects/static/media/dark.42a345c3.png",
+    "static/media/ep1.png": "/randomProjects/static/media/ep1.d80583b6.png",
+    "static/media/ep2.png": "/randomProjects/static/media/ep2.1e97bdff.png",
+    "static/media/ep3.png": "/randomProjects/static/media/ep3.f514a7d9.png",
+    "static/media/ep4.png": "/randomProjects/static/media/ep4.2fe9147b.png",
+    "static/media/ep5.png": "/randomProjects/static/media/ep5.cff2fadf.png",
+    "static/media/ep6.png": "/randomProjects/static/media/ep6.eb0a00e5.png",
+    "static/media/ep7.png": "/randomProjects/static/media/ep7.bcd57b9d.png",
+    "static/media/language.png": "/randomProjects/static/media/language.9eeee811.png",
+    "static/media/likedcover.png": "/randomProjects/static/media/likedcover.4d0b99f0.png",
+    "static/media/manage.png": "/randomProjects/static/media/manage.6ca19315.png",
+    "static/media/parental.png": "/randomProjects/static/media/parental.f0efab00.png",
+    "static/media/strangerthings.png": "/randomProjects/static/media/strangerthings.d580fc31.png",
+    "static/media/vampirediaries.png": "/randomProjects/static/media/vampirediaries.05db0031.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1e58f9a.js",
+    "static/js/2.242a3dc9.chunk.js",
+    "static/css/main.598d9f94.chunk.css",
+    "static/js/main.c7773f12.chunk.js"
+  ]
+}
